@@ -1,0 +1,18 @@
+1. Qual a distinção fundamental entre Classe e Objeto quanto à alocação de recursos?
+A classe é uma definição estática que atua como um conjunto de instruções para a criação do objeto, localizada na área de métodos/código.  
+O objeto é a instância que efetivamente ocupa espaço na memória dinâmica, conhecida como Heap.
+
+2. O "estado" de um objeto é definido tecnicamente por:   
+Por seus atributos, também chamados de variáveis de instância, que representam a "memória individual" daquela instância específica.
+
+3. Qual a função primordial dos Métodos em uma arquitetura orientada a objetos?   
+Eles funcionam como a interface pública pela qual o objeto interage com o mundo externo.  
+Operam sobre os atributos da própria instância, assegurando que as transições de estado ocorram segundo as regras de negócio.
+
+4. O processo de "Instanciação" resulta em:   
+Na reserva de espaço físico no Heap (memória de alocação dinâmica).  
+Na materialização de uma entidade baseada no molde lógico (classe).
+
+5. Se objA e objB são instâncias da mesma classe Calculadora, o que ocorre ao alterar um atributo em objA?   
+Nenhum impacto ocorrerá em objB.
+Podemos usar a analogia da planta arquitetônica: instâncias construídas a partir da mesma planta possuem ocupação interna ou cores de paredes (estados e atributos) de maneira completamente independente umas das outras.
